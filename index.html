@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+        <section class="container">
+            <form class="form-register" action="">
+                <h3>Formulario de contacto</h3>
+                <h4>Por favor, Diligencia los siguientes datos. Tendrás acceso a toda la información </h4>
+
+                <label class="labels" for="name">Nombres </label>
+                <input class="controls" type="text" name="name" id="name" placeholder=" Ingrese Nombres" required pattern="[a-z]*">
+
+                <label class="labels" for="surname">Apellidos </label>
+                <input class="controls" type="text" name="name" id="surname" placeholder="Ingrese Apellidos" required pattern="[a-z]*">
+
+                <label class="labels" for="correo"> Correo </label>
+                <input class="controls" type="email" name="email" id="correo" placeholder="Ingrese Correo Electrónico">
+
+                <label class="labels" for="clave">Contraseña</label>
+                <input class="controls" type="password" name="contraseña" id="clave" placeholder=" Ingrese Contraseña" required>
+
+                <input class="btn" type="submit" value="Regístrate">
+                
+
+                <p>Tienes dudas conoce <a href="#">Términos y condiciones </a></p>
+            </form>
+        </section>
+    
+</body>
+</html>

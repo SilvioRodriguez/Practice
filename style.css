@@ -1,0 +1,68 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   border: none;
+   }
+
+body {
+background-image: url("/img/whiteboard-with-formulas.jpg");
+background-size: cover;
+
+}
+
+.form-register {
+   width: 500px;
+   height: auto;
+   margin: auto;
+   margin-top: 100px;
+   background-color:rgba(0, 0, 0, 0.856);
+   border-radius: 10px;
+      
+}
+.form-register h3 {
+   color: white;
+   text-align: center;
+   margin: 10px;
+   font-size: 22px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 30px;
+}
+
+.form-register h4 {
+   color: white;
+   font-size: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+   padding-bottom: 15px;
+   margin-bottom: 40px;
+   margin-left: 30px;
+}
+.form-register .controls {
+   color:  rgb(102, 101, 101);
+   width: 100%;
+   height: 30px;
+   background-color:rgba(26, 18, 18, 0.336);
+}
+.form-register label {
+   color: rgb(199, 195, 195);
+   margin-left: 10px;
+   margin-bottom: 0px;
+}
+.controls {
+   padding: 10px;
+   margin-bottom: 30px;
+}
+
+.form-register p {
+   color: aliceblue;
+   margin-left: 20px;
+   height: 45px;
+}
+.btn {
+      width: 80%;
+      height: 35px;
+      margin-bottom: 30px;
+      margin-left: 10%;
+      border-radius: 8px;
+}
+
